@@ -50,7 +50,7 @@ body {
   text-align: center; }
 
 #home {
-  background: url("/images/bg-home.jpg") center center no-repeat;
+  background: url("../../images/bg-home.jpg") center center no-repeat;
   background-size: cover;
   color: #8ac9c9; }
   #home .home-content {
@@ -70,7 +70,7 @@ body {
     font-size: 22px; }
 
 #tools {
-  background: url("/images/bg-work.jpg");
+  background: url("../../images/bg-work.jpg");
   background-size: cover;
   color: #8ac9c9; }
   #tools .slide-content {
@@ -119,7 +119,7 @@ body {
   font-family: "AvenirBlack"; }
 
 #how-to-body {
-  background: url("/images/bg-work.jpg") center center no-repeat;
+  background: url("../../images/bg-work.jpg") center center no-repeat;
   background-size: cover;
   background-attachment: fixed; }
   #how-to-body #how-to-header {
