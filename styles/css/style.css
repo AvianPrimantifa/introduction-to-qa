@@ -4,13 +4,13 @@
   src: url("../../fonts/Rubik-Regular.ttf") format("truetype"); }
 @font-face {
   font-family: 'Avenir';
-  src: url("/fonts/Avenir.ttf"); }
+  src: url("../../fonts/Avenir.ttf"); }
 @font-face {
   font-family: 'AvenirBlack';
-  src: url("/fonts/AvenirBlack.ttf"); }
+  src: url("../../fonts/AvenirBlack.ttf"); }
 @font-face {
   font-family: 'AvenirBook';
-  src: url("/fonts/AvenirBook.ttf"); }
+  src: url("../../fonts/AvenirBook.ttf"); }
 body {
   font-family: 'AvenirBook';
   background-color: #000; }
