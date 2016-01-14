@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'Rubik Regular';
+  src: url("../../fonts/Rubik-Regular.eot");
+  src: url("../../fonts/Rubik-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Avenir';
+  src: url("/fonts/Avenir.ttf"); }
+@font-face {
+  font-family: 'AvenirBlack';
+  src: url("/fonts/AvenirBlack.ttf"); }
+@font-face {
+  font-family: 'AvenirBook';
+  src: url("/fonts/AvenirBook.ttf"); }
+body {
+  font-family: 'AvenirBook';
+  background-color: #000; }
+
+#header {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #FFF; }
+  #header #brand {
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 10%; }
+    #header #brand img {
+      width: 150px; }
+  #header #navmenu {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+    #header #navmenu nav {
+      float: right;
+      padding-right: 10%; }
+      #header #navmenu nav .nav-link {
+        margin: 15px;
+        text-decoration: none;
+        color: #FFF;
+        transition: color 0.2s ease-out;
+        font-size: 16px;
+        letter-spacing: 1px; }
+      #header #navmenu nav .nav-link:hover {
+        color: #8ac9c9;
+        transition: color 0.2s ease-out; }
+
+.section {
+  text-align: center; }
+
+#home {
+  background: url("/images/bg-home.jpg") center center no-repeat;
+  background-size: cover;
+  color: #8ac9c9; }
+  #home .home-content {
+    color: #FFF; }
+    #home .home-content img {
+      width: 70%; }
+
+#intro {
+  background-color: #8ac9c9; }
+  #intro .intro-content {
+    color: #FFF; }
+  #intro .intro-icehouse img {
+    width: 350px; }
+  #intro .intro-criteria {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 22px; }
+
+#tools {
+  background: url("/images/bg-work.jpg");
+  background-size: cover;
+  color: #8ac9c9; }
+  #tools .slide-content {
+    font-size: 18px;
+    color: #FFF; }
+    #tools .slide-content .content-list {
+      width: 100%; }
+    #tools .slide-content .tools-name {
+      display: inline-block;
+      font-weight: bold;
+      color: #8ac9c9;
+      font-size: 22px; }
+  #tools .fp-controlArrow.fp-prev {
+    border-color: transparent #8ac9c9 transparent transparent; }
+  #tools .fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent #8ac9c9; }
+
+#how-to {
+  background-color: #8ac9c9;
+  color: #FFF; }
+  #how-to .how-to-content {
+    line-height: 1.8em;
+    letter-spacing: 1px; }
+    #how-to .how-to-content .how-to-desc a {
+      color: #FFF;
+      text-shadow: 2px 2px #000;
+      text-decoration: none;
+      font-size: 2em; }
+    #how-to .how-to-content .how-to-desc a:hover {
+      color: #FFF;
+      text-shadow: none; }
+
+#do-and-donts {
+  background-color: #000;
+  color: #8ac9c9; }
+
+.intro-desc, .slide-content, .tools-slide-content {
+  text-align: justify;
+  padding-left: 150px;
+  padding-right: 150px;
+  line-height: 1.8em;
+  letter-spacing: 1px; }
+
+.tools-title, .how-to-title, .do-and-donts-title {
+  font-size: 80px;
+  font-family: "AvenirBlack"; }
+
+#how-to-body {
+  background: url("/images/bg-work.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  #how-to-body #how-to-header {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(138, 201, 201, 0.7);
+    color: #FFF;
+    text-align: center; }
+    #how-to-body #how-to-header #back-link {
+      position: absolute;
+      padding-left: 10px;
+      padding-top: 10px; }
+      #how-to-body #how-to-header #back-link a {
+        text-decoration: none;
+        color: #FFF;
+        letter-spacing: 0px;
+        transition: letter-spacing 0.1s ease-out; }
+      #how-to-body #how-to-header #back-link a:hover {
+        letter-spacing: 1px;
+        transition: letter-spacing 0.1s ease-out; }
+    #how-to-body #how-to-header #brand {
+      width: 100%;
+      padding-top: 10px; }
+      #how-to-body #how-to-header #brand #header-title-big img {
+        width: 230px; }
+      #how-to-body #how-to-header #brand #header-title-small {
+        margin-top: 0;
+        font-size: 20px; }
+      #how-to-body #how-to-header #brand a {
+        text-decoration: none;
+        color: #FFF; }
+    #how-to-body #how-to-header #dropdown-menu .sf-menu {
+      float: none;
+      text-align: left;
+      font-size: 1.2em; }
+    #how-to-body #how-to-header #dropdown-menu .sf-menu ul {
+      box-shadow: none;
+      min-width: 100%;
+      /* allow long menu items to determine submenu width */
+      *width: 100%;
+      /* no auto sub width for IE7, see white-space comment below */ }
+    #how-to-body #how-to-header #dropdown-menu .sf-menu a {
+      color: #FFF;
+      border-left: 0;
+      border-top: 0; }
+    #how-to-body #how-to-header #dropdown-menu .sf-menu li {
+      background: transparent;
+      padding-left: 20px;
+      padding-right: 20px; }
+    #how-to-body #how-to-header #dropdown-menu .sf-menu ul li {
+      background: #8ac9c9; }
+    #how-to-body #how-to-header #dropdown-menu .sf-menu ul ul li {
+      background: #8ac9c9; }
+    #how-to-body #how-to-header #dropdown-menu .sf-menu li:hover,
+    #how-to-body #how-to-header #dropdown-menu .sf-menu li.sfHover {
+      background: #8ac9c9; }
+  #how-to-body #how-to-content {
+    position: relative;
+    padding-top: 200px; }
+    #how-to-body #how-to-content .content-wrapper {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      color: #FFF;
+      background-color: rgba(0, 0, 0, 0.5); }
+      #how-to-body #how-to-content .content-wrapper .content-title {
+        text-align: center; }
+      #how-to-body #how-to-content .content-wrapper .content-desc {
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 18px; }
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important; }
+
+  nav {
+    text-align: center !important;
+    padding-right: 0 !important;
+    float: none !important; }
+
+  .intro-desc, .slide-content, .tools-slide-content, .how-to-content, .do-and-donts-content {
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.5em; }
+
+  #tools .slide-content {
+    font-size: 14px; }
+    #tools .slide-content .tools-name {
+      font-size: 18px; }
+
+  .tools-title, .how-to-title, .do-and-donts-title {
+    font-size: 50px; } }
+@media (max-width: 470px) {
+  .nav-link {
+    margin: 5px !important; } }
+
+/*# sourceMappingURL=style.css.map */
